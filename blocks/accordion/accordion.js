@@ -41,7 +41,6 @@ export default function decorate(block) {
       const icon = document.createElement('span');
       icon.className = 'accordion-icon';
       icon.setAttribute('aria-hidden', 'true');
-      icon.textContent = '+';
 
       button.append(titleSpan, icon);
       heading.append(button);

@@ -1,80 +1,121 @@
 .block.accordion {
-    --accordion-border-color: #d7d7d7;
-    --accordion-text-color: #1f1f1f;
-    --accordion-muted-color: #666;
-    --accordion-bg: #fff;
-    --accordion-radius: 0.75rem;
-    --accordion-spacing: 1rem;
-  
-    display: grid;
-    gap: 0.75rem;
-  }
-  
-  .block.accordion .accordion-item {
-    border: 1px solid var(--accordion-border-color);
-    border-radius: var(--accordion-radius);
-    background: var(--accordion-bg);
-    overflow: clip;
-  }
-  
-  .block.accordion .accordion-heading {
-    margin: 0;
-  }
-  
+  --accordion-border-color: #d7d7d7;
+  --accordion-text-color: #1f1f1f;
+  --accordion-muted-color: #666;
+  --accordion-bg: #fff;
+  --accordion-radius: 0.75rem;
+  --accordion-spacing: 1rem;
+
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.block.accordion .accordion-item {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  border: 1px solid var(--accordion-border-color);
+  border-radius: var(--accordion-radius);
+  background: var(--accordion-bg);
+  overflow: clip;
+}
+
+.block.accordion .accordion-heading {
+  margin: 0;
+}
+
+.block.accordion .accordion-trigger {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--accordion-text-color);
+  width: 100%;
+  max-width: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.block.accordion .accordion-trigger:hover {
+  background: #f8f8f8;
+}
+
+.block.accordion .accordion-trigger:focus-visible {
+  outline: 2px solid #1473e6;
+  outline-offset: -2px;
+}
+
+.block.accordion .accordion-title {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* Chevron on the right (decorative; text set in JS is empty) */
+.block.accordion .accordion-icon {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-inline-start: auto;
+  color: var(--accordion-muted-color);
+}
+
+.block.accordion .accordion-icon::before {
+  content: '';
+  display: block;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-bottom: 0.2rem;
+  border-right: 2px solid currentcolor;
+  border-bottom: 2px solid currentcolor;
+  transform: rotate(45deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease, margin-bottom 0.25s ease;
+}
+
+.block.accordion .accordion-trigger[aria-expanded='true'] .accordion-icon::before {
+  margin-bottom: 0;
+  margin-top: 0.2rem;
+  transform: rotate(-135deg);
+}
+
+.block.accordion .accordion-panel {
+  border-top: 1px solid var(--accordion-border-color);
+}
+
+.block.accordion .accordion-panel[hidden] {
+  display: none;
+}
+
+.block.accordion .accordion-panel-inner {
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.block.accordion .accordion-panel-inner > :first-child {
+  margin-top: 0;
+}
+
+.block.accordion .accordion-panel-inner > :last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 600px) {
   .block.accordion .accordion-trigger {
-    appearance: none;
-    border: 0;
-    background: transparent;
-    color: var(--accordion-text-color);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 1rem 1.25rem;
-    text-align: left;
-    cursor: pointer;
-    font: inherit;
-    font-weight: 700;
+    padding: 1.1rem 1.5rem;
   }
-  
-  .block.accordion .accordion-trigger:hover {
-    background: #f8f8f8;
-  }
-  
-  .block.accordion .accordion-trigger:focus-visible {
-    outline: 2px solid #1473e6;
-    outline-offset: -2px;
-  }
-  
-  .block.accordion .accordion-title {
-    flex: 1 1 auto;
-  }
-  
-  .block.accordion .accordion-icon {
-    flex: 0 0 auto;
-    color: var(--accordion-muted-color);
-    font-size: 1.25rem;
-    line-height: 1;
-    transition: transform 0.2s ease;
-  }
-  
-  .block.accordion .accordion-trigger[aria-expanded='true'] .accordion-icon {
-    transform: rotate(45deg);
-  }
-  
-  .block.accordion .accordion-panel {
-    border-top: 1px solid var(--accordion-border-color);
-  }
-  
+
   .block.accordion .accordion-panel-inner {
-    padding: 1rem 1.25rem 1.25rem;
+    padding: 1.1rem 1.5rem 1.35rem;
   }
-  
-  .block.accordion .accordion-panel-inner > :first-child {
-    margin-top: 0;
-  }
-  
-  .block.accordion .accordion-panel-inner > :last-child {
-    margin-bottom: 0;
-  }
+}
