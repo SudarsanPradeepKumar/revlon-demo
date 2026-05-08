@@ -5,6 +5,8 @@
   --accordion-bg: #fff;
   --accordion-radius: 0.75rem;
   --accordion-spacing: 1rem;
+  --accordion-image-max-width: 100%;
+  --accordion-image-aspect-ratio: 16 / 9;
 
   box-sizing: border-box;
   width: 100%;
@@ -100,6 +102,24 @@
 
 .block.accordion .accordion-panel-inner {
   padding: 1rem 1.25rem 1.25rem;
+}
+
+.block.accordion .accordion-panel-inner picture {
+  display: block;
+  width: var(--accordion-image-max-width);
+  max-width: 100%;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0.35rem;
+}
+
+.block.accordion .accordion-panel-inner picture > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: var(--accordion-image-aspect-ratio);
+  object-fit: cover;
+  object-position: center;
 }
 
 .block.accordion .accordion-panel-inner > :first-child {
