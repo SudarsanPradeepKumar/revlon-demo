@@ -4,12 +4,12 @@
 
 .carousel-product > div {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  padding: 0 16px 16px;
+  padding: 0 10px 16px;
 }
 
 .carousel-product > div::-webkit-scrollbar {
@@ -17,86 +17,82 @@
 }
 
 .carousel-product > div > div {
-  flex: 0 0 220px;
+  flex: 0 0 160px;
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
+  text-align: center;
 }
 
 .carousel-product > div > div > div:first-child {
-  aspect-ratio: 1;
   overflow: hidden;
-  border-radius: 4px;
-  background: var(--light-color);
 }
 
 .carousel-product > div > div > div:first-child img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
-  transition: transform 0.3s ease;
-}
-
-.carousel-product > div > div:hover > div:first-child img {
-  transform: scale(1.05);
 }
 
 .carousel-product > div > div > div:last-child {
-  padding: 12px 0;
+  padding: 12px 0 6px;
+  text-align: center;
 }
 
 .carousel-product > div > div > div:last-child p {
   margin: 0 0 4px;
-  font-size: var(--body-font-size-m);
   line-height: 1.4;
 }
 
+/* Product title */
 .carousel-product > div > div > div:last-child p:first-child {
   font-family: var(--heading-font-family);
   font-size: 16px;
   font-weight: 500;
-  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 0.84px;
 }
 
+/* Price */
 .carousel-product > div > div > div:last-child p:nth-child(2) {
   font-size: 14px;
-  color: #333;
+  color: #1c1d1d;
 }
 
+/* Shop Now link */
 .carousel-product > div > div > div:last-child p:last-child a {
-  display: inline-block;
-  margin-top: 8px;
-  padding: 8px 16px;
-  background-color: var(--accent-color);
-  color: #fff;
-  border-radius: var(--button-border-radius);
   font-size: 12px;
-  font-weight: var(--button-font-weight);
-  letter-spacing: var(--button-letter-spacing);
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: var(--button-transition);
+  color: #757575;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .carousel-product > div > div > div:last-child p:last-child a:hover {
-  background-color: var(--accent-hover-color);
-  color: #fff;
+  color: var(--accent-color);
 }
 
 @media (width >= 600px) {
   .carousel-product > div > div {
-    flex: 0 0 260px;
+    flex: 0 0 200px;
   }
 }
 
 @media (width >= 900px) {
   .carousel-product > div {
-    gap: 24px;
+    gap: 20px;
     padding: 0 32px 24px;
   }
 
   .carousel-product > div > div {
-    flex: 0 0 280px;
+    flex: 0 0 240px;
+  }
+
+  .carousel-product > div > div > div:last-child p:first-child {
+    font-size: 21px;
+  }
+
+  .carousel-product > div > div > div:last-child p:nth-child(2) {
+    font-size: 16px;
   }
 }
