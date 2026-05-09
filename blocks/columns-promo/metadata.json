@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-promo",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-09T16:34:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/",
+    "originPage": "Revlon homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "promo",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "video/image + image overlay with heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage promotional sections",
+      "brand ambassador features",
+      "product launch announcements",
+      "50/50 split hero-style promotions"
+    ],
+    "notSuitableFor": [
+      "text-only side-by-side content",
+      "comparison layouts",
+      "multi-row columnar content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-09T16:34:00.000Z"
+  }
+}

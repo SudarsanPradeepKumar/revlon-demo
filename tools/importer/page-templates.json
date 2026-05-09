@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "projectType": "doc"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": ["https://www.revlon.com/"],
+      "description": "Revlon homepage with hero promo, product carousels, category cards, and newsletter signup",
+      "blocks": [
+        {
+          "name": "columns-promo",
+          "instances": [
+            "#shopify-section-template--18078934728899__promo_grid_tNppGd .promo-grid",
+            "#shopify-section-template--18078934728899__promo_grid_bxaKpX .promo-grid"
+          ]
+        },
+        {
+          "name": "carousel-product",
+          "instances": [
+            "#CollectionSection-template--18078934728899__featured_collection_zxqLjV",
+            "#CollectionSection-template--18078934728899__featured_collection_eycLYD"
+          ]
+        },
+        {
+          "name": "cards-category",
+          "instances": [
+            "#template--18078934728899__featured_categories_carousel_XP8c9X"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero-promo",
+          "name": "Hero Promo",
+          "selector": "#shopify-section-template--18078934728899__promo_grid_tNppGd",
+          "style": null,
+          "blocks": ["columns-promo"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-best-sellers",
+          "name": "Best Sellers",
+          "selector": "#shopify-section-template--18078934728899__featured_collection_zxqLjV",
+          "style": null,
+          "blocks": ["carousel-product"],
+          "defaultContent": [
+            "#CollectionSection-template--18078934728899__featured_collection_zxqLjV .section-header__title",
+            "#CollectionSection-template--18078934728899__featured_collection_zxqLjV .section-header .rte"
+          ]
+        },
+        {
+          "id": "section-3-spring-lip-fling",
+          "name": "Spring Lip Fling Promo",
+          "selector": "#shopify-section-template--18078934728899__promo_grid_bxaKpX",
+          "style": null,
+          "blocks": ["columns-promo"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4-new-arrivals",
+          "name": "New Arrivals",
+          "selector": "#shopify-section-template--18078934728899__featured_collection_eycLYD",
+          "style": null,
+          "blocks": ["carousel-product"],
+          "defaultContent": [
+            "#CollectionSection-template--18078934728899__featured_collection_eycLYD .section-header__title",
+            "#CollectionSection-template--18078934728899__featured_collection_eycLYD .section-header .rte",
+            "#shopify-section-template--18078934728899__featured_collection_eycLYD a.btn"
+          ]
+        },
+        {
+          "id": "section-5-divider",
+          "name": "Divider",
+          "selector": "#shopify-section-template--18078934728899__section_divider_XNg7MK",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".section-divider hr"]
+        },
+        {
+          "id": "section-6-featured-categories",
+          "name": "Featured Categories",
+          "selector": "#shopify-section-template--18078934728899__featured_categories_carousel_XP8c9X",
+          "style": null,
+          "blocks": ["cards-category"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7-newsletter",
+          "name": "Newsletter Signup",
+          "selector": "#shopify-section-sections--18078936793283__187f0ef1-a332-4e4a-8a0c-8079fac83a6b",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [".newsletter-section .klaviyo-form-UY4rbm"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/",
+  "path": "index",
+  "timestamp": "2026-05-09T16:55:10.422Z",
+  "title": "Makeup, Hair Color, Nails, Beauty Products & Tools | Revlon – Revlon US",
+  "template": "homepage",
+  "blocks": [
+    "columns-promo",
+    "columns-promo",
+    "carousel-product",
+    "carousel-product",
+    "cards-category"
+  ]
+}

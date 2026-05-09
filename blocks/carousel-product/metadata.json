@@ -1,0 +1,40 @@
+{
+  "variantName": "carousel-product",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-05-09T16:34:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/",
+    "originPage": "Revlon homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "product-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "product image + product name + rating + price + CTA",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage product carousels",
+      "best seller product showcases",
+      "new arrivals product listings",
+      "featured product slideshows"
+    ],
+    "notSuitableFor": [
+      "image-only galleries",
+      "hero banners with single slides",
+      "text-heavy content slideshows"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-09T16:34:00.000Z"
+  }
+}

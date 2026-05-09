@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-category",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-09T16:34:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/",
+    "originPage": "Revlon homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "category-navigation",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "category image + category label link",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage category navigation",
+      "product category browsing sections",
+      "featured category showcases",
+      "shop-by-category grids"
+    ],
+    "notSuitableFor": [
+      "detailed product listings with prices",
+      "content-heavy card layouts",
+      "multi-paragraph card content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-09T16:34:00.000Z"
+  }
+}
