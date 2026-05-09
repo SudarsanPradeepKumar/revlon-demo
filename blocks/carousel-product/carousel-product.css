@@ -1,21 +1,23 @@
 .carousel-product {
   padding: 0;
+  position: relative;
 }
 
 .carousel-product .carousel-product-slides-container {
   position: relative;
+  overflow: hidden;
 }
 
 .carousel-product .carousel-product-slides {
   list-style: none;
   margin: 0;
+  padding: 0 16px;
   display: flex;
   gap: 20px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  padding: 0 16px 16px;
 }
 
 .carousel-product .carousel-product-slides::-webkit-scrollbar {
@@ -23,19 +25,16 @@
 }
 
 .carousel-product .carousel-product-slide {
-  flex: 0 0 160px;
+  flex: 0 0 140px;
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 0 10px;
 }
 
 .carousel-product .carousel-product-slide-image {
   overflow: hidden;
-}
-
-.carousel-product .carousel-product-slide-image picture {
-  display: block;
   line-height: 0;
 }
 
@@ -55,22 +54,19 @@
   line-height: 1.4;
 }
 
-/* Product title */
 .carousel-product .carousel-product-slide-content p:first-child {
   font-family: var(--heading-font-family);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #000;
   letter-spacing: 0.84px;
 }
 
-/* Price */
 .carousel-product .carousel-product-slide-content p:nth-child(2) {
   font-size: 14px;
   color: #1c1d1d;
 }
 
-/* Shop Now link */
 .carousel-product .carousel-product-slide-content p:last-child a {
   font-size: 12px;
   color: #757575;
@@ -85,52 +81,59 @@
 /* Navigation arrows */
 .carousel-product .carousel-product-navigation-buttons {
   position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
-  left: 8px;
-  right: 8px;
+  top: 30%;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 1;
   pointer-events: none;
+  padding: 0 4px;
 }
 
-.carousel-product .carousel-product-navigation-buttons button {
+.carousel-product .carousel-product-navigation-buttons .slide-prev,
+.carousel-product .carousel-product-navigation-buttons .slide-next {
   pointer-events: auto;
   position: relative;
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   margin: 0;
   border: 1px solid #ddd;
   border-radius: 50%;
   padding: 0;
-  background-color: #fff;
+  background-color: rgb(255 255 255 / 90%);
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
-.carousel-product .carousel-product-navigation-buttons button:hover {
-  background-color: #f0f0f0;
+.carousel-product .carousel-product-navigation-buttons .slide-prev:hover,
+.carousel-product .carousel-product-navigation-buttons .slide-next:hover {
+  background-color: #fff;
+  border-color: #000;
 }
 
-.carousel-product .carousel-product-navigation-buttons button::after {
+.carousel-product .carousel-product-navigation-buttons .slide-prev::after,
+.carousel-product .carousel-product-navigation-buttons .slide-next::after {
   display: block;
   content: '';
   border: 2px solid #000;
   border-bottom: 0;
   border-left: 0;
-  height: 8px;
-  width: 8px;
+  height: 7px;
+  width: 7px;
   position: absolute;
   top: 50%;
+}
+
+.carousel-product .carousel-product-navigation-buttons .slide-prev::after {
   left: calc(50% + 2px);
   transform: translate(-50%, -50%) rotate(-135deg);
 }
 
-.carousel-product .carousel-product-navigation-buttons button.slide-next::after {
-  transform: translate(-50%, -50%) rotate(45deg);
+.carousel-product .carousel-product-navigation-buttons .slide-next::after {
   left: calc(50% - 2px);
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 /* Slide indicators */
@@ -140,18 +143,18 @@
   justify-content: center;
   gap: 8px;
   margin: 0;
-  padding: 12px 0;
+  padding: 16px 0;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
 .carousel-product .carousel-product-slide-indicator button {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   margin: 0;
   padding: 0;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 50%;
-  background-color: transparent;
+  background-color: #ddd;
   cursor: pointer;
   transition: background-color 0.2s;
 }
@@ -159,23 +162,25 @@
 .carousel-product .carousel-product-slide-indicator button:disabled,
 .carousel-product .carousel-product-slide-indicator button:hover {
   background-color: #000;
-  border-color: #000;
 }
 
 @media (width >= 600px) {
   .carousel-product .carousel-product-slide {
-    flex: 0 0 200px;
+    flex: 0 0 180px;
+  }
+
+  .carousel-product .carousel-product-slide-content p:first-child {
+    font-size: 16px;
   }
 }
 
 @media (width >= 900px) {
   .carousel-product .carousel-product-slides {
-    gap: 20px;
-    padding: 0 32px 24px;
+    padding: 0 32px;
   }
 
   .carousel-product .carousel-product-slide {
-    flex: 0 0 240px;
+    flex: 0 0 220px;
   }
 
   .carousel-product .carousel-product-slide-content p:first-child {
@@ -187,7 +192,6 @@
   }
 
   .carousel-product .carousel-product-navigation-buttons {
-    left: 16px;
-    right: 16px;
+    padding: 0 16px;
   }
 }
