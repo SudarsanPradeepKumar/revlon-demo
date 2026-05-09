@@ -183,6 +183,59 @@
           "defaultContent": []
         }
       ]
+    },
+    {
+      "name": "blog-article",
+      "urls": [
+        "https://www.revlon.com/blogs/makeup/trending-prom-makeup-looks"
+      ],
+      "description": "Blog article page with article hero (title + image columns), article body (editorial content), and back navigation. Used for /blogs/*/article-slug pages.",
+      "blocks": [
+        {
+          "name": "columns-article",
+          "instances": [
+            ".custom-content"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-article-hero",
+          "name": "Article Hero",
+          "selector": [
+            ".custom-content",
+            "[class*='advanced_content']"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-article"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-article-body",
+          "name": "Article Body",
+          "selector": [
+            ".article__body",
+            "[id*='__main']"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".article__body"
+          ]
+        },
+        {
+          "id": "section-3-back-nav",
+          "name": "Back Navigation",
+          "selector": ".article__back-to-blog",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".article__back-to-blog a"
+          ]
+        }
+      ]
     }
   ]
 }

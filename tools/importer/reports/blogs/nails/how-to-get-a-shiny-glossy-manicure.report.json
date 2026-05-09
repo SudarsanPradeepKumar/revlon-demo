@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/blogs/nails/how-to-get-a-shiny-glossy-manicure",
+  "path": "blogs/nails/how-to-get-a-shiny-glossy-manicure",
+  "timestamp": "2026-05-09T19:15:13.882Z",
+  "title": "How to Get a Shiny, Glossy Manicure – Revlon US",
+  "template": "blog-article",
+  "blocks": [
+    "columns-article"
+  ]
+}

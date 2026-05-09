@@ -1,0 +1,41 @@
+{
+  "variantName": "columns-article",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-09T19:05:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/blogs/makeup/trending-prom-makeup-looks",
+    "originPage": "Revlon blog article page - prom makeup looks",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "article-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + image",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog article hero sections with title and featured image",
+      "article landing pages with heading and image side-by-side",
+      "editorial content pages with simple two-column hero layout",
+      "any page needing a title alongside a featured image"
+    ],
+    "notSuitableFor": [
+      "promotional content with CTAs and overlay text",
+      "product pages with complex column layouts",
+      "multi-row columnar content",
+      "comparison layouts with multiple data points"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/blogs/makeup/trending-prom-makeup-looks"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-09T19:05:00.000Z"
+  }
+}

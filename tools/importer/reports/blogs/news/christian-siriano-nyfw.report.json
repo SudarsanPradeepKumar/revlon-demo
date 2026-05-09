@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/blogs/news/christian-siriano-nyfw",
+  "path": "blogs/news/christian-siriano-nyfw",
+  "timestamp": "2026-05-09T19:13:37.201Z",
+  "title": "Revlon Returns to NYFW with Christian Siriano | Revlon – Revlon US",
+  "template": "blog-article",
+  "blocks": [
+    "columns-article"
+  ]
+}
