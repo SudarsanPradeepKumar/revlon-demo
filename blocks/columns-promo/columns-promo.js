@@ -1,17 +1,20 @@
 export default function decorate(block) {
-  const cols = [...block.firstElementChild.children];
-  block.classList.add(`columns-promo-${cols.length}-cols`);
-
-  // setup image columns
   [...block.children].forEach((row) => {
     [...row.children].forEach((col) => {
-      const pic = col.querySelector('picture');
-      if (pic) {
-        const picWrapper = pic.closest('div');
-        if (picWrapper && picWrapper.children.length === 1) {
-          // picture is only content in column
-          picWrapper.classList.add('columns-promo-img-col');
-        }
+      // Convert video links to <video> elements
+      const videoLink = col.querySelector('a[href$=".mp4"], a[href*=".mp4?"]');
+      if (videoLink) {
+        const videoUrl = videoLink.href;
+        const poster = col.querySelector('picture img');
+        const video = document.createElement('video');
+        video.muted = true;
+        video.autoplay = true;
+        video.loop = true;
+        video.playsInline = true;
+        if (poster) video.poster = poster.src;
+        video.innerHTML = `<source src="${videoUrl}" type="video/mp4">`;
+        col.textContent = '';
+        col.appendChild(video);
       }
     });
   });
