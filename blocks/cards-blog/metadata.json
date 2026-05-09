@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-blog",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-09T18:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/blogs/news",
+    "originPage": "Revlon blog/news listing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "blog-article-listing",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + title link",
+    "buttonCount": 0,
+    "imageCount": 5
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog article listing pages",
+      "news article grids",
+      "editorial content indexes",
+      "article archive pages with image thumbnails"
+    ],
+    "notSuitableFor": [
+      "product listings with prices and ratings",
+      "category navigation cards",
+      "cards with long descriptions or multiple CTAs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/blogs/news"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-09T18:35:00.000Z"
+  }
+}

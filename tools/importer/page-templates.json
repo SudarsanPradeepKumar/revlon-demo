@@ -5,7 +5,9 @@
   "templates": [
     {
       "name": "homepage",
-      "urls": ["https://www.revlon.com/"],
+      "urls": [
+        "https://www.revlon.com/"
+      ],
       "description": "Revlon homepage with hero promo, product carousels, category cards, and newsletter signup",
       "blocks": [
         {
@@ -35,7 +37,9 @@
           "name": "Hero Promo",
           "selector": "#shopify-section-template--18078934728899__promo_grid_tNppGd",
           "style": null,
-          "blocks": ["columns-promo"],
+          "blocks": [
+            "columns-promo"
+          ],
           "defaultContent": []
         },
         {
@@ -43,7 +47,9 @@
           "name": "Best Sellers",
           "selector": "#shopify-section-template--18078934728899__featured_collection_zxqLjV",
           "style": null,
-          "blocks": ["carousel-product"],
+          "blocks": [
+            "carousel-product"
+          ],
           "defaultContent": [
             "#CollectionSection-template--18078934728899__featured_collection_zxqLjV .section-header__title",
             "#CollectionSection-template--18078934728899__featured_collection_zxqLjV .section-header .rte"
@@ -54,7 +60,9 @@
           "name": "Spring Lip Fling Promo",
           "selector": "#shopify-section-template--18078934728899__promo_grid_bxaKpX",
           "style": null,
-          "blocks": ["columns-promo"],
+          "blocks": [
+            "columns-promo"
+          ],
           "defaultContent": []
         },
         {
@@ -62,7 +70,9 @@
           "name": "New Arrivals",
           "selector": "#shopify-section-template--18078934728899__featured_collection_eycLYD",
           "style": null,
-          "blocks": ["carousel-product"],
+          "blocks": [
+            "carousel-product"
+          ],
           "defaultContent": [
             "#CollectionSection-template--18078934728899__featured_collection_eycLYD .section-header__title",
             "#CollectionSection-template--18078934728899__featured_collection_eycLYD .section-header .rte",
@@ -75,14 +85,18 @@
           "selector": "#shopify-section-template--18078934728899__section_divider_XNg7MK",
           "style": null,
           "blocks": [],
-          "defaultContent": [".section-divider hr"]
+          "defaultContent": [
+            ".section-divider hr"
+          ]
         },
         {
           "id": "section-6-featured-categories",
           "name": "Featured Categories",
           "selector": "#shopify-section-template--18078934728899__featured_categories_carousel_XP8c9X",
           "style": null,
-          "blocks": ["cards-category"],
+          "blocks": [
+            "cards-category"
+          ],
           "defaultContent": []
         },
         {
@@ -91,7 +105,82 @@
           "selector": "#shopify-section-sections--18078936793283__187f0ef1-a332-4e4a-8a0c-8079fac83a6b",
           "style": "dark",
           "blocks": [],
-          "defaultContent": [".newsletter-section .klaviyo-form-UY4rbm"]
+          "defaultContent": [
+            ".newsletter-section .klaviyo-form-UY4rbm"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blog-listing",
+      "urls": [
+        "https://www.revlon.com/blogs/news",
+        "https://www.revlon.com/blogs/makeup"
+      ],
+      "description": "Blog listing page with hero banner, intro text, and article cards grid. Used for /blogs/* pages.",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": [
+            ".background-media-text"
+          ]
+        },
+        {
+          "name": "cards-blog",
+          "instances": [
+            ".grid.grid--uniform"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-page-title",
+          "name": "Page Title",
+          "selector": ".section-primary-heading",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".section-primary-heading__heading"
+          ]
+        },
+        {
+          "id": "section-2-hero-banner",
+          "name": "Hero Banner",
+          "selector": [
+            ".background-media-text",
+            "[class*='background_image_text']"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-intro-text",
+          "name": "Intro Text",
+          "selector": [
+            ".richtext-top-margin",
+            "[class*='rich_text']"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".rte .enlarge-text p"
+          ]
+        },
+        {
+          "id": "section-4-article-grid",
+          "name": "Article Grid",
+          "selector": [
+            ".grid.grid--uniform",
+            "[id*='__main']"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-blog"
+          ],
+          "defaultContent": []
         }
       ]
     }

@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/blogs/makeup",
+  "path": "blogs/makeup",
+  "timestamp": "2026-05-09T18:50:30.613Z",
+  "title": "Makeup Blogs | Revlon – Revlon US",
+  "template": "blog-listing",
+  "blocks": [
+    "hero-banner",
+    "cards-blog"
+  ]
+}

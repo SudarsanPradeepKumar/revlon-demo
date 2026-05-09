@@ -28,7 +28,11 @@ export default function transform(hookName, element, payload) {
     const reversedSections = [...sections].reverse();
 
     for (const section of reversedSections) {
-      const sectionEl = element.querySelector(section.selector);
+      // Handle selector as string or array (array selectors join as comma-separated CSS)
+      const selector = Array.isArray(section.selector)
+        ? section.selector.join(',')
+        : section.selector;
+      const sectionEl = element.querySelector(selector);
       if (!sectionEl) continue;
 
       // Add Section Metadata block if section has a style

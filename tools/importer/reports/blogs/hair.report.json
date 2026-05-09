@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/blogs/hair",
+  "path": "blogs/hair",
+  "timestamp": "2026-05-09T18:50:39.910Z",
+  "title": "Hair Blogs | Revlon – Revlon US",
+  "template": "blog-listing",
+  "blocks": [
+    "cards-blog"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/blogs/nails",
+  "path": "blogs/nails",
+  "timestamp": "2026-05-09T18:50:47.331Z",
+  "title": "Nail Blogs | Revlon – Revlon US",
+  "template": "blog-listing",
+  "blocks": [
+    "cards-blog"
+  ]
+}

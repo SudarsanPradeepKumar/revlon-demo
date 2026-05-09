@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-09T18:35:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/blogs/news",
+    "originPage": "Revlon blog/news listing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "decorative-banner",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image only",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "decorative banner images without text",
+      "full-width campaign imagery",
+      "visual section dividers",
+      "blog landing page banners"
+    ],
+    "notSuitableFor": [
+      "hero sections with headline and CTA",
+      "product launch heroes with text overlay",
+      "text-heavy hero banners"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/blogs/news"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-09T18:35:00.000Z"
+  }
+}
