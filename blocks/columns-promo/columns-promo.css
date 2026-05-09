@@ -1,33 +1,99 @@
 .columns-promo > div {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.columns-promo > div > div:first-child {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.columns-promo > div > div:first-child img,
+.columns-promo > div > div:first-child video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.columns-promo > div > div:last-child {
+  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 24px;
+  min-height: 300px;
 }
 
-.columns-promo img {
+.columns-promo > div > div:last-child > p:first-child {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+}
+
+.columns-promo > div > div:last-child > p:first-child img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.columns-promo > div > div {
-  order: 1;
+.columns-promo > div > div:last-child > p:not(:first-child),
+.columns-promo > div > div:last-child > h2 {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 30%);
 }
 
-.columns-promo > div > .columns-promo-img-col {
-  order: 0;
+.columns-promo > div > div:last-child > p strong {
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
-.columns-promo > div > .columns-promo-img-col img {
-  display: block;
+.columns-promo > div > div:last-child h2 {
+  font-size: var(--heading-font-size-xxl);
+  margin: 8px 0;
+}
+
+.columns-promo > div > div:last-child a {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin-top: 16px;
+  padding: var(--button-padding);
+  background-color: var(--accent-color);
+  color: #fff;
+  border-radius: var(--button-border-radius);
+  font-weight: var(--button-font-weight);
+  font-size: var(--body-font-size-m);
+  letter-spacing: var(--button-letter-spacing);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: var(--button-transition);
+}
+
+.columns-promo > div > div:last-child a:hover {
+  background-color: var(--accent-hover-color);
+  color: #fff;
 }
 
 @media (width >= 900px) {
   .columns-promo > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .columns-promo > div > div {
-    flex: 1;
-    order: unset;
+  .columns-promo > div > div:first-child {
+    aspect-ratio: auto;
+    min-height: 500px;
+  }
+
+  .columns-promo > div > div:last-child {
+    padding: 60px 48px;
+    align-items: flex-end;
+    text-align: right;
   }
 }
