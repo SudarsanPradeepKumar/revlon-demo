@@ -9,14 +9,15 @@
   aspect-ratio: 1;
 }
 
-.columns-promo > div > div:first-child img,
-.columns-promo > div > div:first-child video {
+.columns-promo > div > div:first-child video,
+.columns-promo > div > div:first-child img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 
+/* Content column with background image */
 .columns-promo > div > div:last-child {
   position: relative;
   display: flex;
@@ -24,46 +25,58 @@
   justify-content: center;
   align-items: flex-start;
   padding: 40px 24px;
-  min-height: 300px;
+  min-height: 400px;
+  overflow: hidden;
 }
 
+/* Background image - first p with picture */
 .columns-promo > div > div:last-child > p:first-child {
   position: absolute;
   inset: 0;
   margin: 0;
+  z-index: 0;
 }
 
+.columns-promo > div > div:last-child > p:first-child picture,
 .columns-promo > div > div:last-child > p:first-child img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
+/* All content sits above the background */
 .columns-promo > div > div:last-child > p:not(:first-child),
-.columns-promo > div > div:last-child > h2 {
+.columns-promo > div > div:last-child > h2,
+.columns-promo > div > div:last-child > p:last-child {
   position: relative;
   z-index: 1;
-  color: #fff;
-  text-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+  color: #000;
 }
 
+.columns-promo > div > div:last-child > h2 {
+  font-size: var(--heading-font-size-xxl);
+  margin: 8px 0;
+  color: #bf000d;
+}
+
+/* Body text */
 .columns-promo > div > div:last-child > p strong {
-  font-size: 12px;
-  letter-spacing: 4px;
-  text-transform: uppercase;
+  color: #000;
   font-weight: 400;
 }
 
-.columns-promo > div > div:last-child h2 {
-  font-size: var(--heading-font-size-xxl);
-  margin: 8px 0;
+/* Eyebrow text (INTRODUCING) */
+.columns-promo > div > div:last-child > p:nth-child(2) strong {
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
-.columns-promo > div > div:last-child a {
-  position: relative;
-  z-index: 1;
+/* CTA button */
+.columns-promo > div > div:last-child > p:last-child a {
   display: inline-block;
-  margin-top: 16px;
+  margin-top: 8px;
   padding: var(--button-padding);
   background-color: var(--accent-color);
   color: #fff;
@@ -76,7 +89,7 @@
   transition: var(--button-transition);
 }
 
-.columns-promo > div > div:last-child a:hover {
+.columns-promo > div > div:last-child > p:last-child a:hover {
   background-color: var(--accent-hover-color);
   color: #fff;
 }
@@ -93,6 +106,7 @@
 
   .columns-promo > div > div:last-child {
     padding: 60px 48px;
+    min-height: 500px;
     align-items: flex-end;
     text-align: right;
   }
