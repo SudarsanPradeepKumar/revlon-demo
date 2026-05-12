@@ -244,29 +244,22 @@ header nav .nav-sections ul > li > ul > li {
     color: var(--accent-color);
   }
 
-  /* Dropdown chevron for items with sub-menus */
-  header nav .nav-sections .nav-drop {
-    padding-right: 16px;
-  }
-
-  header nav .nav-sections .nav-drop::after {
+  /* Underline on hover for top-level nav items */
+  header nav .nav-sections > ul > li::after {
     content: '';
-    display: inline-block;
+    display: block;
     position: absolute;
-    top: 0.5em;
-    right: 2px;
-    transform: rotate(135deg);
-    width: 5px;
-    height: 5px;
-    border: 2px solid currentcolor;
-    border-radius: 0 1px 0 0;
-    border-width: 2px 2px 0 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: currentcolor;
+    transform: scaleX(0);
+    transition: transform 0.25s ease;
   }
 
-  header nav .nav-sections .nav-drop[aria-expanded='true']::after {
-    top: unset;
-    bottom: 0.5em;
-    transform: rotate(315deg);
+  header nav .nav-sections > ul > li:hover::after {
+    transform: scaleX(1);
   }
 }
 
