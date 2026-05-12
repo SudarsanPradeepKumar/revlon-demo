@@ -1,0 +1,67 @@
+- ![Revlon](/icons/revlon-logo.svg)
+- [Revlon](/)
+
+---
+
+- [New](/collections/new)
+- **Face**
+  - [All Face](/collections/face)
+  - [Foundation](/collections/foundation)
+  - [Concealer](/collections/concealer)
+  - [Powder](/collections/powder)
+  - [Face Primer](/collections/face-primer)
+  - [Blush](/collections/blush)
+  - [Highlighter](/collections/highlighter)
+  - [Bronzer](/collections/bronzer)
+- **Lips**
+  - [All Lips](/collections/lips)
+  - [Lipstick](/collections/lipstick)
+  - [Liquid Lipstick](/collections/liquid-lipstick)
+  - [Lip Gloss & Lacquer](/collections/lip-gloss-and-lacquer)
+  - [Lip Balm & Treatment](/collections/lip-balm-treatment)
+  - [Lip Liner](/collections/lip-liner)
+- **Eyes**
+  - [All Eyes](/collections/eyes)
+  - [Eyebrow](/collections/eyebrow)
+  - [Eyeliner](/collections/eyeliner)
+  - [Eye Shadow](/collections/eye-shadow)
+  - [Mascara](/collections/mascara)
+- **Hair**
+  - [All Hair](/collections/hair)
+  - [Permanent Hair Color](/collections/permanent-hair-color)
+  - [Demi-Permanent Hair Color](/collections/demi-permanent-hair-color)
+  - [Hair Bleach](/collections/hair-bleach)
+  - [Hair Care](/collections/colorsilk)
+  - [Hair Tools](https://www.revlonhairtools.com/)
+- **Beauty Tools**
+  - [Eyelash Curlers](/collections/eyelash-curlers)
+  - [Make Up Applicators](/collections/makeup-applicators)
+  - [Eyebrow Shapers & Groomers](/collections/eyebrow-shapers-groomers)
+  - [Tweezers](/collections/tweezers)
+  - [Manicure Tools](/collections/manicure)
+  - [Pedicure Tools](/collections/pedicure)
+  - [Men's Series](/collections/mens-series-collection)
+  - [All Tools](/collections/all-tools)
+- **Nails**
+  - [All Nails](/collections/nails)
+  - [Nail Color](/collections/nail-color)
+  - [Nail Care](/collections/nail-care)
+- **Collections**
+  - [Best Sellers](/collections/best-sellers)
+  - [Glimmer Collection](/collections/glimmer-collection)
+  - [ColorSilk Collection](/collections/colorsilk)
+  - [Super Lustrous Collection](/collections/super-lustrous-collection)
+  - [ColorStay Collection](/collections/colorstay-collection)
+  - [PhotoReady Collection](/collections/photoready-collection)
+  - [Now Trending](/collections/now-trending)
+- **Blog**
+  - [News](/blogs/news)
+  - [Makeup](/blogs/makeup)
+  - [Hair](/blogs/hair)
+  - [Nails](/blogs/nails)
+  - [Beauty Tools](/blogs/beauty-tools)
+
+---
+
+- [Search](/search)
+- [Store Locator](/pages/where-to-buy)
