@@ -210,6 +210,7 @@ header nav .nav-sections ul > li > ul > li {
     gap: 15px;
     margin: 0;
     align-items: center;
+    justify-content: center;
   }
 
   header nav .nav-sections ul > li {
@@ -224,7 +225,8 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
   }
 
-  header nav .nav-sections ul > li[aria-expanded='true'] > ul {
+  header nav .nav-sections ul > li[aria-expanded='true'] > ul,
+  header nav .nav-sections ul > li:hover > ul {
     display: block;
     position: absolute;
     left: -15px;
@@ -242,6 +244,15 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections ul > li > ul > li a:hover {
     color: var(--accent-color);
+  }
+
+  header nav .nav-sections > ul > li:hover {
+    color: var(--link-hover-color);
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  header nav .nav-sections > ul > li:hover > a {
+    color: var(--link-hover-color);
   }
 
   /* Underline on hover for top-level nav items */
