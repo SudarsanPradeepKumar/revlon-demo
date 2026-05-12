@@ -294,19 +294,3 @@ header nav .nav-tools img {
   height: 20px;
   display: block;
 }
-
-/* stylelint-disable-next-line no-descending-specificity */
-header nav .nav-tools ul {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-header nav .nav-tools img {
-  width: 20px;
-  height: 20px;
-  display: block;
-}

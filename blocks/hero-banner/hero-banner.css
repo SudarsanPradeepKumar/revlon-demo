@@ -7,6 +7,9 @@
   position: relative;
   padding: 40px 24px;
   min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .hero-banner h1,
@@ -20,6 +23,13 @@
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
+}
+
+.hero-banner h1,
+.hero-banner-container > .default-content-wrapper h1 {
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
 }
 
 .hero-banner.no-image * {
@@ -43,5 +53,11 @@
 @media (width >= 900px) {
   .hero-banner {
     padding: 40px 32px;
+    min-height: 400px;
+  }
+
+  .hero-banner h1,
+  .hero-banner-container > .default-content-wrapper h1 {
+    font-size: 100px;
   }
 }
