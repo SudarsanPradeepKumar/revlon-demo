@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/photoready-powder",
+  "path": "products/photoready-powder",
+  "timestamp": "2026-05-13T09:00:07.924Z",
+  "title": "PhotoReady™ Powder | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

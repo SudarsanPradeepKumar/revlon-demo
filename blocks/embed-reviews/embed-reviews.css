@@ -1,0 +1,26 @@
+.embed-reviews {
+  padding: 40px 0;
+  border-top: 1px solid #e8e8e1;
+}
+
+.embed-reviews > div {
+  text-align: center;
+}
+
+.embed-reviews a {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: var(--heading-font-family);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.embed-reviews a:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}

@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/revlon-mens-series-facial-hair-kit",
+  "path": "products/revlon-mens-series-facial-hair-kit",
+  "timestamp": "2026-05-13T08:57:12.559Z",
+  "title": "Revlon Men’s Series™ Facial Hair Kit | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/kiss-balm-hydrating-lip-balm-treatment",
+  "path": "products/kiss-balm-hydrating-lip-balm-treatment",
+  "timestamp": "2026-05-13T08:19:26.599Z",
+  "title": "Kiss™ Balm, Hydrating Lip Balm Treatment | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/comfort-control-nipper",
+  "path": "products/comfort-control-nipper",
+  "timestamp": "2026-05-13T08:20:29.101Z",
+  "title": "Comfort + Control Nipper | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

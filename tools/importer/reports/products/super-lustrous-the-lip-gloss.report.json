@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/super-lustrous-the-lip-gloss",
+  "path": "products/super-lustrous-the-lip-gloss",
+  "timestamp": "2026-05-13T08:27:37.224Z",
+  "title": "Super Lustrous The Lip Gloss™ | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

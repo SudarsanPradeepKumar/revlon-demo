@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/revlon-ceramic-tip-slanted-tweezer-brow-tweezers",
+  "path": "products/revlon-ceramic-tip-slanted-tweezer-brow-tweezers",
+  "timestamp": "2026-05-13T09:00:32.362Z",
+  "title": "Revlon Ceramic Tip Slanted Tweezer, Brow Tweezers | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

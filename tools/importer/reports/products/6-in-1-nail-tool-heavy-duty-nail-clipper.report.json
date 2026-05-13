@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/6-in-1-nail-tool-heavy-duty-nail-clipper",
+  "path": "products/6-in-1-nail-tool-heavy-duty-nail-clipper",
+  "timestamp": "2026-05-13T08:42:32.352Z",
+  "title": "6-In-1 Nail Tool: Heavy Duty Nail Clipper | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

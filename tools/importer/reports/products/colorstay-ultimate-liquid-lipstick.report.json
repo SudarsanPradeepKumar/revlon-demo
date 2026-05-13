@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/colorstay-ultimate-liquid-lipstick",
+  "path": "products/colorstay-ultimate-liquid-lipstick",
+  "timestamp": "2026-05-13T08:33:18.336Z",
+  "title": "ColorStay Ultimate™ Liquid Lipstick | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

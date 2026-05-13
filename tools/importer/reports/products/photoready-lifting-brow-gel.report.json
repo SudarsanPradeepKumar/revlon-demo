@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/photoready-lifting-brow-gel",
+  "path": "products/photoready-lifting-brow-gel",
+  "timestamp": "2026-05-13T09:29:06.560Z",
+  "title": "PhotoReady™ Lifting Brow Gel | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

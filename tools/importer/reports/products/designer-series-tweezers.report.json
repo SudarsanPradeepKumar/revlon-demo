@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/designer-series-tweezers",
+  "path": "products/designer-series-tweezers",
+  "timestamp": "2026-05-13T09:22:44.095Z",
+  "title": "The Designer Collection Slanted Tweezers | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

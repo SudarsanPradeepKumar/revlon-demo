@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/colorsilk-after-color-shampoo",
+  "path": "products/colorsilk-after-color-shampoo",
+  "timestamp": "2026-05-13T09:29:14.723Z",
+  "title": "Revlon ColorSilk™ After Color Shampoo – Sulfate Free | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/glimmer-lip-treat-balm-mask",
+  "path": "products/glimmer-lip-treat-balm-mask",
+  "timestamp": "2026-05-13T09:24:38.601Z",
+  "title": "Glimmer Lip Treat Balm + Mask | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

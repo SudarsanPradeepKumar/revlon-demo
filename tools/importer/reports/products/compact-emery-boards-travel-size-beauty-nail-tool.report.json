@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/compact-emery-boards-travel-size-beauty-nail-tool",
+  "path": "products/compact-emery-boards-travel-size-beauty-nail-tool",
+  "timestamp": "2026-05-13T08:40:11.450Z",
+  "title": "Compact Emery Boards, Travel Size Beauty & Nail Tool | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

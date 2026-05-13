@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/super-lustrous-ultra-lipstick",
+  "path": "products/super-lustrous-ultra-lipstick",
+  "timestamp": "2026-05-13T09:27:20.497Z",
+  "title": "Super Lustrous Ultra™ Lipstick – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

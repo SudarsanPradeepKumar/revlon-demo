@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/colorstay-lash-serum-liner",
+  "path": "products/colorstay-lash-serum-liner",
+  "timestamp": "2026-05-13T09:21:42.133Z",
+  "title": "ColorStay Lash Serum + Liner™ Liquid Eyeliner | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

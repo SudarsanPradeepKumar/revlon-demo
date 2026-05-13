@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/colorstay-full-time-mascara",
+  "path": "products/colorstay-full-time-mascara",
+  "timestamp": "2026-05-13T09:16:55.538Z",
+  "title": "ColorStay Full Time™ Mascara | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

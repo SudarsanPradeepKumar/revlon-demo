@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/colorstay-longwear-makeup-for-combination-oily-skin-spf-15",
+  "path": "products/colorstay-longwear-makeup-for-combination-oily-skin-spf-15",
+  "timestamp": "2026-05-13T08:51:07.020Z",
+  "title": "ColorStay™ Longwear Makeup For Combination/Oily Skin SPF 15 | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

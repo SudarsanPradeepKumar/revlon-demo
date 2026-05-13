@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/glimmer-liquid-shadow",
+  "path": "products/glimmer-liquid-shadow",
+  "timestamp": "2026-05-13T09:23:46.519Z",
+  "title": "Glimmer Liquid Shadow | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

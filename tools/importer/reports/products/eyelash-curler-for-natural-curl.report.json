@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/eyelash-curler-for-natural-curl",
+  "path": "products/eyelash-curler-for-natural-curl",
+  "timestamp": "2026-05-13T08:32:25.128Z",
+  "title": "EyeLash Curler for Natural Curl | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

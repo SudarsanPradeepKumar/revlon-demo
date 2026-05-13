@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/glimmer-tinted-moisturizer-stick",
+  "path": "products/glimmer-tinted-moisturizer-stick",
+  "timestamp": "2026-05-13T09:25:32.265Z",
+  "title": "Glimmer Tinted Moisturizer Stick | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

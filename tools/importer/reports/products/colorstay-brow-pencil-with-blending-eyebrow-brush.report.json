@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/colorstay-brow-pencil-with-blending-eyebrow-brush",
+  "path": "products/colorstay-brow-pencil-with-blending-eyebrow-brush",
+  "timestamp": "2026-05-13T08:10:12.845Z",
+  "title": "ColorStay™ Brow Pencil, With Blending Eyebrow Brush | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

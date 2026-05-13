@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/so-fierce-mascara-for-length-and-volume",
+  "path": "products/so-fierce-mascara-for-length-and-volume",
+  "timestamp": "2026-05-13T08:41:12.114Z",
+  "title": "So Fierce! Mascara For Length And Volume | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

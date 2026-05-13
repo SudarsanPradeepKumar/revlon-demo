@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/photoready-lift-fill-skin-tint",
+  "path": "products/photoready-lift-fill-skin-tint",
+  "timestamp": "2026-05-13T09:26:26.612Z",
+  "title": "PhotoReady™ Lift & Fill Skin Tint | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

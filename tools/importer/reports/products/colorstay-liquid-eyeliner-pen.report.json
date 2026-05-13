@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/colorstay-liquid-eyeliner-pen",
+  "path": "products/colorstay-liquid-eyeliner-pen",
+  "timestamp": "2026-05-13T09:22:53.300Z",
+  "title": "ColorStay Liquid Eyeliner Pen | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

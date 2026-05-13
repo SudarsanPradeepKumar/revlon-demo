@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/wet-dry-foot-file-pedicure-tool",
+  "path": "products/wet-dry-foot-file-pedicure-tool",
+  "timestamp": "2026-05-13T08:16:47.414Z",
+  "title": "Wet/Dry Foot File - Pedicure Tool | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/colorsilk-after-color-hair-mask",
+  "path": "products/colorsilk-after-color-hair-mask",
+  "timestamp": "2026-05-13T09:30:16.656Z",
+  "title": "ColorSilk™ After Color Hair Mask – Hair Repair Treatment | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}

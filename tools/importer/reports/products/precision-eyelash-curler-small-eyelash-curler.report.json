@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/products/precision-eyelash-curler-small-eyelash-curler",
+  "path": "products/precision-eyelash-curler-small-eyelash-curler",
+  "timestamp": "2026-05-13T08:52:09.417Z",
+  "title": "Revlon Precision Eyelash Curler | Revlon – Revlon US",
+  "template": "product",
+  "blocks": [
+    "columns-product",
+    "columns-detail",
+    "columns-detail",
+    "accordion-ingredients",
+    "accordion-ingredients",
+    "carousel-product",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews",
+    "embed-reviews"
+  ]
+}
