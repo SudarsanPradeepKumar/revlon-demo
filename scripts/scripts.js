@@ -12,10 +12,10 @@ import {
   loadCSS,
 } from './aem.js';
 
-import { runExperimentation } from './experiment-loader.js';
+import { runExperimentation, showExperimentationRail } from './experiment-loader.js';
 
 const experimentationConfig = {
-  prodHost: 'www.revlon.com', // add your prodHost here, otherwise we will show mock data
+  prodHost: 'www.my-site.com', // add your prodHost here, otherwise we will show mock data
   audiences: {
     mobile: () => window.innerWidth < 600,
     desktop: () => window.innerWidth >= 600,
@@ -159,6 +159,8 @@ async function loadEager(doc) {
   } catch (e) {
     // do nothing
   }
+
+  await showExperimentationRail(doc, experimentationConfig);
 }
 
 /**
