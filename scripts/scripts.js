@@ -12,6 +12,16 @@ import {
   loadCSS,
 } from './aem.js';
 
+import { runExperimentation } from './experiment-loader.js';
+
+const experimentationConfig = {
+  prodHost: 'www.revlon.com', // add your prodHost here, otherwise we will show mock data
+  audiences: {
+    mobile: () => window.innerWidth < 600,
+    desktop: () => window.innerWidth >= 600,
+    // define your custom audiences here as needed
+  },
+};
 /**
  * Builds hero block and prepends to main in a new section.
  * @param {Element} main The container element
@@ -131,6 +141,7 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
+  await runExperimentation(doc, experimentationConfig);
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
