@@ -236,6 +236,119 @@
           ]
         }
       ]
+    },
+    {
+      "name": "product",
+      "urls": [
+        "https://www.revlon.com/products/super-lustrous-lipstick-with-moisturizing-formula"
+      ],
+      "description": "Product detail page with product hero, description/details/how-to-use columns, ingredients accordion, product recommendations carousel, and reviews embed",
+      "blocks": [
+        {
+          "name": "columns-product",
+          "instances": [
+            "#ProductSection-template--18078936301763__main-8040991654083"
+          ]
+        },
+        {
+          "name": "columns-detail",
+          "instances": [
+            "#shopify-section-template--18078936301763__btf_content_YyaQbK .additional-product-info",
+            "#shopify-section-template--18078936301763__btf_content_kQbx6N .additional-product-info",
+            "#shopify-section-template--18078936301763__btf_content_rVygkD .additional-product-info"
+          ]
+        },
+        {
+          "name": "accordion-ingredients",
+          "instances": [
+            "#shopify-section-template--18078936301763__ingredients_NziJzt"
+          ]
+        },
+        {
+          "name": "carousel-product",
+          "instances": [
+            "#shopify-section-template--18078936301763__revlon_product_recommendations_TayqKA"
+          ]
+        },
+        {
+          "name": "embed-reviews",
+          "instances": [
+            "#shopify-section-template--18078936301763__17744660681e8ee571"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-product-hero",
+          "name": "Product Hero",
+          "selector": "#shopify-section-template--18078936301763__main",
+          "style": null,
+          "blocks": [
+            "columns-product"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-description",
+          "name": "Description",
+          "selector": "#shopify-section-template--18078936301763__btf_content_YyaQbK",
+          "style": null,
+          "blocks": [
+            "columns-detail"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-details",
+          "name": "Details",
+          "selector": "#shopify-section-template--18078936301763__btf_content_kQbx6N",
+          "style": null,
+          "blocks": [
+            "columns-detail"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4-how-to-use",
+          "name": "How To Use",
+          "selector": "#shopify-section-template--18078936301763__btf_content_rVygkD",
+          "style": null,
+          "blocks": [
+            "columns-detail"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5-ingredients",
+          "name": "Ingredients",
+          "selector": "#shopify-section-template--18078936301763__ingredients_NziJzt",
+          "style": null,
+          "blocks": [
+            "accordion-ingredients"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6-recommendations",
+          "name": "Recommendations",
+          "selector": "#shopify-section-template--18078936301763__revlon_product_recommendations_TayqKA",
+          "style": null,
+          "blocks": [
+            "carousel-product"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7-reviews",
+          "name": "Reviews",
+          "selector": "#shopify-section-template--18078936301763__17744660681e8ee571",
+          "style": null,
+          "blocks": [
+            "embed-reviews"
+          ],
+          "defaultContent": []
+        }
+      ]
     }
   ]
 }

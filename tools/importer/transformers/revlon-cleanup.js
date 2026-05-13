@@ -82,6 +82,19 @@ export default function transform(hookName, element, payload) {
       }
     });
 
+    // Remove empty additional-product-info placeholder sections (product pages)
+    // Found at: #shopify-section-template--18078936301763__additional_product_info_ptAn3c,
+    //           #shopify-section-template--18078936301763__additional_product_info_PqWCqd,
+    //           #shopify-section-template--18078936301763__additional_product_info_qBNUKA
+    // These are empty Shopify sections with no authorable content (just an empty <section> tag)
+    const emptyAdditionalInfoSections = element.querySelectorAll('[id*="additional_product_info"]');
+    emptyAdditionalInfoSections.forEach((section) => {
+      const inner = section.querySelector('section.additional-product-info');
+      if (inner && !inner.textContent.trim()) {
+        section.remove();
+      }
+    });
+
     // Remove template elements (Shopify markup templates for JS rendering)
     // Found at: template#naturalImageMarkup, template#fixedRatioImageMarkup, template#articleImageMarkup
     WebImporter.DOMUtils.remove(element, [

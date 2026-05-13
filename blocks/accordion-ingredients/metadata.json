@@ -1,0 +1,40 @@
+{
+  "variantName": "accordion-ingredients",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2026-05-13T07:18:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/products/super-lustrous-lipstick-with-moisturizing-formula",
+    "originPage": "Revlon product detail page - Super Lustrous Lipstick",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "ingredients-list",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + expandable text content",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product ingredients lists with expand/collapse",
+      "product specification sections",
+      "long text content that benefits from progressive disclosure",
+      "single-item expandable content sections"
+    ],
+    "notSuitableFor": [
+      "multi-item FAQ sections",
+      "navigation-style accordions with many items",
+      "complex interactive accordion with rich media"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/products/super-lustrous-lipstick-with-moisturizing-formula"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-13T07:18:00.000Z"
+  }
+}

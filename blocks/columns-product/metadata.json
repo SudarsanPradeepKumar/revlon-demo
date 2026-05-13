@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-product",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-13T07:18:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/products/super-lustrous-lipstick-with-moisturizing-formula",
+    "originPage": "Revlon product detail page - Super Lustrous Lipstick",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "product-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "product image + product info (title + price + description + CTA)",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product detail page hero sections",
+      "product pages with large image and product info side-by-side",
+      "e-commerce product layouts with image gallery and details"
+    ],
+    "notSuitableFor": [
+      "promotional content with video",
+      "article/blog hero sections",
+      "multi-row comparison layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/products/super-lustrous-lipstick-with-moisturizing-formula"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-13T07:18:00.000Z"
+  }
+}
