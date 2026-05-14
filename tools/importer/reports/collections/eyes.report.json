@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/collections/eyes",
+  "path": "collections/eyes",
+  "timestamp": "2026-05-14T02:21:49.113Z",
+  "title": "Eye Makeup: Mascara, Eyeshadow, Eyeliner, Brow Color | Revlon – Revlon US",
+  "template": "collection",
+  "blocks": [
+    "columns-collection",
+    "cards-product"
+  ]
+}

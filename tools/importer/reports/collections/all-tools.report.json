@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/collections/all-tools",
+  "path": "collections/all-tools",
+  "timestamp": "2026-05-14T02:24:30.492Z",
+  "title": "All Beauty & Grooming Tools | Revlon – Revlon US",
+  "template": "collection",
+  "blocks": [
+    "cards-product"
+  ]
+}

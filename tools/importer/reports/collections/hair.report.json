@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/collections/hair",
+  "path": "collections/hair",
+  "timestamp": "2026-05-14T02:20:00.408Z",
+  "title": "Hair Color: Hair Dye, Highlights, Bleach, Root Touchup & More | Revlon – Revlon US",
+  "template": "collection",
+  "blocks": [
+    "columns-collection",
+    "cards-product"
+  ]
+}

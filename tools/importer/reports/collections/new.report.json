@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/collections/new",
+  "path": "collections/new",
+  "timestamp": "2026-05-14T02:18:11.500Z",
+  "title": "NEW Makeup, Hair Color, & Beauty Tools | Revlon – Revlon US",
+  "template": "collection",
+  "blocks": [
+    "columns-collection",
+    "cards-product"
+  ]
+}
