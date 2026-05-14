@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-collection",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-14T02:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/collections/new",
+    "originPage": "Revlon collection/PLP page - New products",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "collection-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraph + image",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "collection/PLP page hero sections with title, description, and collection image",
+      "category landing pages with heading and feature image side-by-side",
+      "any page needing a heading + descriptive text alongside a feature image"
+    ],
+    "notSuitableFor": [
+      "product detail page heroes with interactive elements",
+      "promotional sections with CTAs and overlays",
+      "article/blog hero sections with just heading and image (use columns-article instead)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/collections/new"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-14T02:10:00.000Z"
+  }
+}

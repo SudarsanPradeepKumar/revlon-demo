@@ -349,6 +349,64 @@
           "defaultContent": []
         }
       ]
+    },
+    {
+      "name": "collection",
+      "urls": [
+        "https://www.revlon.com/collections/new",
+        "https://www.revlon.com/collections/best-sellers",
+        "https://www.revlon.com/collections/hair",
+        "https://www.revlon.com/collections/lips",
+        "https://www.revlon.com/collections/eyes",
+        "https://www.revlon.com/collections/face",
+        "https://www.revlon.com/collections/nails",
+        "https://www.revlon.com/collections/all-tools"
+      ],
+      "description": "Collection/PLP page with collection hero (heading + description + image) and product listing card grid",
+      "blocks": [
+        {
+          "name": "columns-collection",
+          "instances": [
+            ".custom-content",
+            "[id*='advanced_content'] .custom-content"
+          ]
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            ".collection-grid__wrapper",
+            "[id*='main-collection'] .collection-grid__wrapper"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-collection-hero",
+          "name": "Collection Hero",
+          "selector": [
+            "[id*='advanced_content']",
+            ".custom-content"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-collection"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-product-grid",
+          "name": "Product Grid",
+          "selector": [
+            "[id*='main-collection']",
+            ".collection-grid__wrapper"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-product"
+          ],
+          "defaultContent": []
+        }
+      ]
     }
   ]
 }

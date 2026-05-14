@@ -1,0 +1,41 @@
+{
+  "variantName": "cards-product",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-14T02:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.revlon.com/collections/new",
+    "originPage": "Revlon collection/PLP page - New products",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "product-listing",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + title + price + rating",
+    "buttonCount": 0,
+    "imageCount": 15
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product listing/collection pages (PLP) with product card grids",
+      "product search results pages",
+      "new arrivals or featured product grid sections",
+      "any page needing a grid of product cards with image, title, and price"
+    ],
+    "notSuitableFor": [
+      "blog article listings (use cards-blog instead)",
+      "category navigation grids (use cards-category instead)",
+      "single product detail pages",
+      "product carousels (use carousel-product instead)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/collections/new"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-14T02:10:00.000Z"
+  }
+}

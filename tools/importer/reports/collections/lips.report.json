@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.revlon.com/collections/lips",
+  "path": "collections/lips",
+  "timestamp": "2026-05-14T02:20:54.281Z",
+  "title": "Lip Makeup - Lipstick, Lip Balm, Lip Gloss, Lip Liner & More | Revlon – Revlon US",
+  "template": "collection",
+  "blocks": [
+    "columns-collection",
+    "cards-product"
+  ]
+}
