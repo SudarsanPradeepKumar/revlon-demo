@@ -15,11 +15,15 @@ import {
 import { runExperimentation, showExperimentationRail } from './experiment-loader.js';
 
 const experimentationConfig = {
-  prodHost: 'www.my-site.com', // add your prodHost here, otherwise we will show mock data
+  prodHost: 'www.revlon.com',
   audiences: {
     mobile: () => window.innerWidth < 600,
     desktop: () => window.innerWidth >= 600,
-    // define your custom audiences here as needed
+  },
+  decorateFunction: (el) => {
+    // Re-decorate content after experimentation replaces it
+    // eslint-disable-next-line no-use-before-define
+    decorateMain(el);
   },
 };
 /**
@@ -206,17 +210,6 @@ loadPage();
   // eslint-disable-next-line import/no-unresolved
   import('https://da.live/scripts/dapreview.js').then(({ default: daPreview }) => daPreview(loadPage));
 }());
-
-async function loadSidekick() {
-  if (document.querySelector('aem-sidekick')) {
-    import('./sidekick.js');
-    return;
-  }
-
-  document.addEventListener('sidekick-ready', () => {
-    import('./sidekick.js');
-  });
-}
 
 (async function loadDa() {
   const { searchParams } = new URL(window.location.href);
